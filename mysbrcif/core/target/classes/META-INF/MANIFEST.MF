@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Bundle-Category: My SBR CIF
+Bundle-Description: Core bundle for My SBR CIF
+Bundle-ManifestVersion: 2
+Bundle-Name: My SBR CIF - Core
+Bundle-SymbolicName: mysbrcif.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.mysbrcif.core.filters;version="1.0";uses:="javax.s
+ ervlet",com.mysbrcif.core.listeners;version="1.0";uses:="org.osgi.ser
+ vice.event",com.mysbrcif.core.models;version="1.0";uses:="javax.annot
+ ation,org.apache.sling.api.resource,org.apache.sling.models.annotatio
+ ns,org.apache.sling.models.annotations.injectorspecific",com.mysbrcif
+ .core.schedulers;version="1.0",com.mysbrcif.core.servlets;version="1.
+ 0";uses:="javax.servlet,org.apache.sling.api,org.apache.sling.api.ser
+ vlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.granite.ass
+ et.api;version="[1.7,2)",com.adobe.granite.workflow;version="[1.1,2)"
+ ,com.adobe.granite.workflow.exec;version="[1.2,2)",com.adobe.granite.
+ workflow.metadata;version="[1.0,2)",com.day.cq.dam.api;version="[1.28
+ ,2)",com.day.cq.wcm.api;version="[1.29,2)",com.mysbrcif.core.filters;
+ version="[1.0,2)",com.mysbrcif.core.listeners;version="[1.0,2)",com.m
+ ysbrcif.core.schedulers;version="[1.0,2)",com.mysbrcif.core.servlets;
+ version="[1.0,2)",javax.jcr;version="[2.0,3)",javax.servlet;version="
+ [3.1,4)",org.apache.poi.xssf.usermodel;version="[3.0,4)",org.apache.s
+ ling.api;version="[2.3,3)",org.apache.sling.api.request;version="[2.4
+ ,3)",org.apache.sling.api.resource;version="[2.12,3)",org.apache.slin
+ g.api.servlets;version="[2.3,3)",org.apache.sling.models.annotations;
+ version="[1.5,2)",org.apache.sling.models.annotations.injectorspecifi
+ c;version="[1.1,2)",org.osgi.service.event;version="[1.3,2)",org.slf4
+ j;version="[1.7,2)"
+Private-Package: com.mysbrcif.core.util,com.mysbrcif.core.workflow
+Provide-Capability: osgi.service;objectClass:List<String>="com.adobe.g
+ ranite.workflow.exec.WorkflowProcess";uses:="com.adobe.granite.workfl
+ ow.exec",osgi.service;objectClass:List<String>="com.mysbrcif.core.ser
+ vlets.CSVServlet";uses:="com.mysbrcif.core.servlets",osgi.service;obj
+ ectClass:List<String>="com.mysbrcif.core.util.ExcelReader";uses:="com
+ .mysbrcif.core.util",osgi.service;objectClass:List<String>="java.lang
+ .Runnable",osgi.service;objectClass:List<String>="javax.servlet.Filte
+ r";uses:="javax.servlet",osgi.service;objectClass:List<String>="javax
+ .servlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List
+ <String>="org.osgi.service.event.EventHandler";uses:="org.osgi.servic
+ e.event"
+Require-Capability: osgi.service;filter:="(objectClass=com.mysbrcif.co
+ re.servlets.CSVServlet)";effective:=active,osgi.service;filter:="(obj
+ ectClass=org.apache.sling.api.resource.ResourceResolverFactory)";effe
+ ctive:=active,osgi.extender;filter:="(&(osgi.extender=osgi.component)
+ (version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Jav
+ aSE)(version=1.8))"
+Service-Component: OSGI-INF/com.mysbrcif.core.filters.LoggingFilter.xm
+ l,OSGI-INF/com.mysbrcif.core.listeners.SimpleResourceListener.xml,OSG
+ I-INF/com.mysbrcif.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/c
+ om.mysbrcif.core.servlets.CSVServlet.xml,OSGI-INF/com.mysbrcif.core.s
+ ervlets.SimpleServlet.xml,OSGI-INF/com.mysbrcif.core.util.ExcelReader
+ .xml,OSGI-INF/com.mysbrcif.core.workflow.GeeksWorkflowStep.xml
+Sling-Model-Classes: com.mysbrcif.core.models.HelloWorldModel
+

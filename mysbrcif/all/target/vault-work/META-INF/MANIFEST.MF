@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: My SBR CIF - All
+Content-Package-Roots: /apps/mysbrcif-packages,/apps/mysbrcif-vendor-p
+ ackages
+Implementation-Version: 1.0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.mysbrcif:mysbrcif.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for My SBR CIF
+

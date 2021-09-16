@@ -1,0 +1,5 @@
+com\mysbrcif\core\filters\LoggingFilterTest.class
+com\mysbrcif\core\servlets\SimpleServletTest.class
+com\mysbrcif\core\listeners\SimpleResourceListenerTest.class
+com\mysbrcif\core\models\HelloWorldModelTest.class
+com\mysbrcif\core\schedulers\SimpleScheduledTaskTest.class

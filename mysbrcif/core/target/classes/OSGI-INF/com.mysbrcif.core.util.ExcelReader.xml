@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysbrcif.core.util.ExcelReader" immediate="true">
+  <service>
+    <provide interface="com.mysbrcif.core.util.ExcelReader"/>
+  </service>
+  <implementation class="com.mysbrcif.core.util.ExcelReader"/>
+</scr:component>

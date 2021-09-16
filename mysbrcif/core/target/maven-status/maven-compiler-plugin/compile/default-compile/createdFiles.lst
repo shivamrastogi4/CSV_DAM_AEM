@@ -1,0 +1,14 @@
+com\mysbrcif\core\filters\LoggingFilter.class
+com\mysbrcif\core\filters\package-info.class
+com\mysbrcif\core\schedulers\package-info.class
+com\mysbrcif\core\servlets\SimpleServlet.class
+com\mysbrcif\core\workflow\GeeksWorkflowStep.class
+com\mysbrcif\core\models\HelloWorldModel.class
+com\mysbrcif\core\listeners\SimpleResourceListener.class
+com\mysbrcif\core\util\ExcelReader.class
+com\mysbrcif\core\models\package-info.class
+com\mysbrcif\core\listeners\package-info.class
+com\mysbrcif\core\schedulers\SimpleScheduledTask$Config.class
+com\mysbrcif\core\servlets\CSVServlet.class
+com\mysbrcif\core\schedulers\SimpleScheduledTask.class
+com\mysbrcif\core\servlets\package-info.class

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: My SBR CIF - UI content
+Content-Package-Roots: /conf/mysbrcif,/content/dam/mysbrcif/asset.jpg,
+ /content/experience-fragments/mysbrcif,/content/mysbrcif
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.mysbrcif:mysbrcif.ui.apps:
+ 1.0.0-SNAPSHOT=maven:com.mysbrcif:mysbrcif.ui.apps:1.0.0-SNAPSHOT:zip
+Content-Package-Dependencies: com.mysbrcif:mysbrcif.ui.apps:1.0.0-SNAP
+ SHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: content
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.mysbrcif:mysbrcif.ui.content:1.0.0-SNAPSHOT
+Content-Package-Description: UI content package for My SBR CIF
+

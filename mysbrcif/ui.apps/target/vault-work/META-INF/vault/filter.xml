@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mysbrcif/clientlibs"/>
+    <filter root="/apps/mysbrcif/components"/>
+    <filter root="/apps/mysbrcif/i18n"/>
+</workspaceFilter>

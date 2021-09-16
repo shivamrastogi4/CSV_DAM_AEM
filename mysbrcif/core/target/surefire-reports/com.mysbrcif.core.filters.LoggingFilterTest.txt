@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mysbrcif.core.filters.LoggingFilterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.978 s - in com.mysbrcif.core.filters.LoggingFilterTest

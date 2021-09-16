@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My SBR CIF - UI config</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">mysbrcif.ui.config</entry>
+<entry key="created">2021-09-16T05:19:10.230Z</entry>
+<entry key="groupId">com.mysbrcif</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="group">com.mysbrcif</entry>
+<entry key="description">UI config package for My SBR CIF</entry>
+<entry key="artifactId">mysbrcif.ui.config</entry>
+</properties>

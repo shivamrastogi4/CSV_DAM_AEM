@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mysbrcif.core.workflow.GeeksWorkflowStep">
+  <property name="process.label" type="String" value=" Geeks Workflow Step"/>
+  <property name="service.vendor" type="String" value="AEM Geeks"/>
+  <property name="service.description" type="String" value=" Custom geeks workflow step."/>
+  <service>
+    <provide interface="com.adobe.granite.workflow.exec.WorkflowProcess"/>
+  </service>
+  <reference name="csvServlet" interface="com.mysbrcif.core.servlets.CSVServlet" field="csvServlet"/>
+  <implementation class="com.mysbrcif.core.workflow.GeeksWorkflowStep"/>
+</scr:component>

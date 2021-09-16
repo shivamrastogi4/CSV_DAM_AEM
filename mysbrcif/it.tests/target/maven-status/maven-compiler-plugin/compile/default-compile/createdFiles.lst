@@ -1,0 +1,4 @@
+com\mysbrcif\it\tests\PublishPageValidationIT.class
+com\mysbrcif\it\tests\HtmlUnitClient.class
+com\mysbrcif\it\tests\CreatePageIT.class
+com\mysbrcif\it\tests\GetPageIT.class

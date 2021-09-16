@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mysbrcif.core.models.HelloWorldModelTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.mysbrcif.core.models.HelloWorldModelTest

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: My SBR CIF - Repository Structure Package
+Content-Package-Roots: /apps,/apps/cq,/apps/dam,/apps/msm,/apps/mysbrc
+ if,/apps/settings,/apps/sling,/apps/wcm,/content/dam/mysbrcif
+Implementation-Version: 1.0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: mixed
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.mysbrcif:mysbrcif.ui.apps.structure:1.0.0-SNAP
+ SHOT
+Content-Package-Description: Empty package that defines the structure 
+ of the Adobe Experience Manager repository the Code packages in this 
+ project deploy into.
+         Any roots in the Code packages of this 
+ project should have their parent enumerated in the Filters list below
+ .
+

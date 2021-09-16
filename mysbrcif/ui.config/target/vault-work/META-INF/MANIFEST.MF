@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: My SBR CIF - UI config
+Content-Package-Roots: /apps/mysbrcif/osgiconfig
+Implementation-Version: 1.0.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.mysbrcif:mysbrcif.ui.config:1.0.0-SNAPSHOT
+Content-Package-Description: UI config package for My SBR CIF
+
